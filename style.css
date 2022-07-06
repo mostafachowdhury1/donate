@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding:3rem 3rem;
+}
+
+/* **********************************  header sectoion */
+header{
+    background-image:
+    linear-gradient(to bottom, rgba(118, 132, 216, 0.52), rgba(117, 19, 93, 0.603)),
+    url('images/donet20.jpg');
+    background-repeat:no-repeat;
+    width:100%;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+.header-content{
+    width: 50%;
+    text-align: center;
+
+    padding: 4rem;
+   
+}
+
+.header-content h2{
+    color:wheat;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+   
+}
+.header-content p{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color:beige;
+    font-family: 'Roboto', sans-serif
+}
+
+.heading{
+    text-align:center;
+    padding: 2.5rem 0rem;
+}
+
+.heading span{
+    color:orange;
+    background: #555;
+    font-size:1rem;
+    padding:.7rem 1.5rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    
+}
+.btn{
+    background: tomato;
+    padding: 9px 28px;
+    border: none;
+    border-radius: 5px;
+     margin: 1rem 0;
+     color:white;
+     font-size: 1.3rem;
+     text-transform: capitalize;
+     transition:all 0.5s;
+    
+}
+.btn:hover{
+    background-color: orange;
+    color:black;
+}
+
+/* **********************************  donate sectoion */
+.donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 248, 220, 0.301);
+}
+.donate-today{
+   width: 70%;
+   padding:1rem;
+ 
+
+}
+
+.donate .donate-today h2{
+    color:black;
+    font-size:2.5rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-transform: capitalize;
+}
+
+.donate .donate-today p{
+    padding:2rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color:black;
+    text-transform: capitalize;
+   
+}
+
+
+.donate .donate-today .donate-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+.donate .donate-today .donate-box .box{
+
+     text-align: center;
+     padding: 2.1rem;
+    background:  #188fff42;
+    color:rgb(17, 6, 6);
+    font-size: 1.7rem;
+
+}
+
+.donate .donate-today .donate-box .box.active{
+    background:rgba(218, 74, 105, 0.575);
+    border: 2px solid rgb(189, 18, 117);
+}
+.inputarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+.inputarea input{
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 10px;
+    outline: none;
+    background: none;
+    text-align: center;
+  
+}
+
+.donate .donate-today .btn{
+    
+        background:linear-gradient(rgba(1, 59, 1, 0.815),rgba(100, 100, 15, 0.89));
+        padding: 9px 28px;
+        border: none;
+        border-radius: 5px;
+         margin: 1rem 0;
+         color:white;
+         font-size: 1.3rem;
+         text-transform: capitalize;
+         transition:all 0.5s;
+        
+    
+}
+
+.donate .donate-today .btn:hover{
+    background:linear-gradient(rgba(1, 59, 1, 0.315),rgba(100, 100, 15, 0.842));
+    color:black;
+}
+
+/* **********************************  donate plan sectoion */
+
+.plan-section{
+background:rgba(137, 187, 122, 0.137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.plan-container{
+    width: 80%;
+   
+  
+}
+
+
+.info{
+    width: 100%;
+}
+
+.plan-section .plan-container .info h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.8rem 0;
+    text-transform: capitalize;
+}
+.plan-section .plan-container .info p{
+    text-align: center;
+ margin: auto;
+ width: 60%;
+ font-size: 1.5rem;
+ padding: 1rem 0;
+ color:darkolivegreen;
+
+   
+}
+
+.plan-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+
+.plan-box .box{
+    flex: 1 1 10rem;
+    padding: 2rem 1rem;
+
+   border-radius: 5px;
+   box-shadow: -1px  1px 1px 1px rgba(10, 10, 10, 0.486);
+   transition: all 05s;
+}
+
+
+.plan-box .box.one{
+background-color: #188fff36;
+}
+
+.plan-box .box.tow{
+    background: #19644121;
+}
+
+.plan-box .box.theree{
+  background: #30571154
+
+}
+.plan-box .box .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plan-box .box .content i{
+    font-size:3rem;
+    color:orange;
+    border-radius: 5px;
+    background-color: rgba(250, 235, 215, 0.473);
+    padding: 1rem;
+   box-shadow: 1px 2px 4px rgba(128, 128, 128, 0.575);
+  
+}
+
+
+.plan-box .box .content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1rem 0;
+  
+}
+
+
+
+.plan-box .box .content p{
+    text-align: justify;
+   font-size: 1.1rem;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+/*  fload descripsiotn secrion **************************************/
+.discription{
+background:  #7f525d10;
+}
+.book{
+    padding:5rem 0;
+ 
+
+}
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(85, 107, 47, 0.541);;
+     gap: 2rem;
+     padding: 2rem;
+     border: 1px solid rgba(255, 0, 0, 0.068);;
+     
+
+}
+
+.book .row .image{
+flex: 1 1 20rem;
+border-radius: 5px;
+
+}
+
+.book .row .image img{
+    width: 100%;
+
+
+    object-fit: cover;
+   
+}
+
+.book .row .content{
+    flex: 1 1 20rem;
+    padding: 2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  border:1px solid rgba(22, 20, 20, 0.055);
+}
+
+.book .row .content h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.book .row .content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight:300;
+}
+/* **********************************  fload gallry sectoion */
+
+.floads{
+    background:rgba(87, 92, 161, 0.226);
+}
+.floads .galary{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem
+}
+
+.floads .galary .box{
+    flex: 1 1 25rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.119);
+
+}
+
+
+.floads .galary .box img{
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.fload-content{
+    text-align: center;
+    padding: 2rem;
+}
+
+.fload-content h2{
+    font-size: 2.5rem;
+    color:chocolate;
+    text-transform: capitalize;
+    
+  
+}
+
+.fload-content p{
+    font-size: 1rem;
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+  
+}
+
+/* **********************************  email sectoion */
+.upadate{
+    background-color: #188fff2d;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.email-conatiner{
+    width: 70%;
+  
+  
+}
+
+.email-conatiner h2{
+    text-align:center;
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.email-conatiner p{
+    font-size: 1rem;
+    padding: 2rem 0;
+    text-align: center;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.email-conatiner .email-box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 215, 215, 0.562);
+ 
+}
+
+.email-conatiner .email-box .box{
+   
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5rem;
+    
+ 
+}
+
+.email-conatiner .email-box .box input{
+    padding: 0.6rem 3rem ;
+    border: none;
+    outline: none;
+    background: rgba(240, 236, 236, 0.699);
+  
+}
+
+.email-conatiner .email-box .box button{
+    padding: 0.6rem 3rem ;
+    background:tomato;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+   
+}
+/* **********************************  foter sectoion */
+footer{
+    padding: 4rem;
+    background: black;
+}
+
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+footer .footer-content h2{
+    font-family: 'Bebas Neue', cursive;
+    color:tomato;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+footer .footer-content p{
+    font-size: 1rem;
+    color:white;
+}
+
+footer .footer-content p span{
+    color:orange;
+}
